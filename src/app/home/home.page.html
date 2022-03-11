@@ -1,0 +1,111 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      CANTINA
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-label>{{numeroSortear}}</ion-label>
+    <ion-button (click)="sortear()"class="Numero">SORTEIO</ion-button>
+
+  </div>
+
+
+<ion-grid>
+   <ion-row class="">
+      <ion-col>PRODUTOS</ion-col>
+      <ion-col>R$</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="remove"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-col>SALGADO</ion-col>
+      <ion-col>R$2,50</ion-col>
+
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-row>
+
+    <ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="remove"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-col>REFRIGERANTE</ion-col>
+      <ion-col>R$3,00</ion-col>
+
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-row>
+
+    <ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="remove"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-col>BALAS</ion-col>
+      <ion-col>R$0,75</ion-col>
+
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-row>
+
+    <ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="remove"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-col>CHOCOLATE</ion-col>
+      <ion-col>R$1,00</ion-col>
+
+
+      <ion-row>
+        <ion-col>
+          <ion-button>
+            <ion-icon name="add"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
